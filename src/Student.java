@@ -11,7 +11,15 @@ public class Student {
         System.out.println("Name: " +name);
         System.out.println("Course: " +course);
         System.out.println("Age: " +age);
+        
 
     }
+    // Overloaded displayInfo
+    void displayInfo(String collegeName) {
+    System.out.println("Student Name: " + name);
+    System.out.println("College: " + collegeName);
+    
+    }
+
     
 }
